@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="signin.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 120,
+            delay: 0,
+            duration: 700,
+            easing: 'ease',
+            once: false,
+            mirror: false,
+            anchorPlacement: 'top-bottom',
+
+        });
+    </script>
+    <section>
+
+        <div class="form-container">
+            <h1>Signin Form</h1>
+            <div data-aos="fade-up">
+                <form action="index.html">
+                    <div class="control">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Name">
+                    </div>
+                    <div class="control">
+                        <label for="Email">Email</label>
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="control">
+                        <label for="psw">Confirm Password</label>
+                        <input type="password" placeholder="Enter Password">
+                    </div>
+                    <span><input type="checkbox"> Remember me</span>4
+
+                    <div class="control">
+                        <a href="home.html"> <input type="button" class="btn" value="SIGN IN"></a>
+                    </div>
+                </form>
+            </div>
+            <p><a href="signup.html">Already a user?</a></p>
+        </div>
+
+    </section>
+</body>
+
+</html>
